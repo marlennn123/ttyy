@@ -1,0 +1,10 @@
+<ul>
+    {% for product in products %}
+    <li>
+        <p>Name: {{ product.product_name }}</p>
+        <p>Price: {{ product.price }}</p>
+        <p>Date: {{ product.created_date }} </p>
+    </li>
+
+    {% endfor %}
+</ul>
